@@ -9,6 +9,7 @@ import {
 import Login from './Components/Login';
 import Register from './Components/Register';
 import PrivateRoute from './Components/PrivateRoute';
+import RegEvents from './Components/RegEvents';
 export const UserContext = createContext();
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
         </Route>
         <PrivateRoute path="/register/:key">
           <Register></Register>
+        </PrivateRoute>
+        <PrivateRoute path="/registeredEvents">
+          <RegEvents></RegEvents>
         </PrivateRoute>
         <Route path="/login">
           <Login></Login>

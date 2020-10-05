@@ -15,7 +15,7 @@ const Register = () => {
                  <h3>Register as a Volunteer</h3>
                  <input type="text" value={loggedInUser.user}/>
                  <input type="text" value={loggedInUser.email}/>
-                 <input type="date" name="" id=""/>
+                 <input type="datetime-local" name="" id=""/>
                  <input type="text" placeholder="Description"/>
                  <input type="text" value={clickedEvent.name}/>
                  <button className="btn btn-primary">Register</button>

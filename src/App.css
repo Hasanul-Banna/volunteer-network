@@ -28,6 +28,10 @@ ul li {
 }
 .event img{
     width: 100%;
+    transition: all .8s ;
+}
+.event img:hover{
+ transform: scale(1.2);
 }
 .event{
     position: relative;
@@ -35,8 +39,11 @@ ul li {
 }
 .event h3 {
     position: absolute;
-    top: 90%;
+    top: 84%;
+    color: azure;
+    text-shadow: 0 0 10px pink;
     text-align: center;
+    padding: 10px 0px;
     width: 90%;
     border-radius: 0px 0px 10px 10px;
 }

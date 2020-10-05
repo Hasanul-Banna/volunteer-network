@@ -20,7 +20,7 @@ const eventObj = [
     {
         "id": "4",
         "name": "libraryBooks",
-        "color": "blue",
+        "color": "teal",
         "pic": "libraryBooks.png"
     }
 ];
